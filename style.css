@@ -1,0 +1,53 @@
+body p{
+    font-size: 20px;
+}
+.hero-container,.ingredients,.instructions,.nutrition{
+    padding: 25px;
+}
+.hero-container img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 4%;   
+}
+.hero-container .prepare{
+    margin-left: 20px;
+}
+.hero-container li,.ingredients li,.instructions li{
+    margin: 1em;
+    padding-left: 6px;
+    font-size: 20px;
+}
+.hero-container h3{
+    padding-top: 20px;
+    color: hsl(332, 51%, 32%);
+}
+.ingredients h2, .instructions h2,.nutrition h2{
+    color: hsl(14, 45%, 36%);
+}
+.instructions li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+table,tr{
+    width: 100%;
+}
+td{ 
+    padding: 15px;
+    font-size: 20px;
+    border-bottom: 0.5px solid #ddd;
+}
+td:nth-child(1){
+    padding-left: 40px;
+}
+td:nth-child(2){
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+@media (max-width:500px){
+    body p,.hero-container li,.ingredients li,.instructions li{
+        font-size: 18px;
+    }
+
+}
